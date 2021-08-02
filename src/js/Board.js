@@ -129,7 +129,6 @@ export default class Board {
     if (!this.cloneElement) {
       return;
     }
-    console.log(this.coordY);
     this.cloneElement.style.left = `${event.pageX - this.coordX}px`;
     this.cloneElement.style.top = `${event.pageY - this.coordY}px`;
   }
