@@ -6,4 +6,4 @@ import './css/board.css';
 import './css/taskcolumn.css';
 import './css/card.css';
 
-import './js/app';
+import './js/app.js';
